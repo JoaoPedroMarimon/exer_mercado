@@ -9,3 +9,4 @@ def separar():
 def calcular_percentual(valor, percentual):
 
     return valor - (valor * (percentual / 100))
+##

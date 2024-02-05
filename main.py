@@ -47,7 +47,7 @@ with open('produtos_comprados.csv', 'w', newline='') as arquivo_csv:
 
     for i, v in carrinho.items():
         escritor_csv.writerow([i, v])
-
+#
 print(f'Os produtos comprados foram salvos em "produtos_comprados.csv"')
 
 for i, v in carrinho.items():
